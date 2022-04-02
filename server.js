@@ -2,7 +2,7 @@ const { app } = require('./app');
 
 // Utils
 const { sequelize } = require('./utils/database');
-const { initModels } = require('./utilsgit/initModels');
+const { initModels } = require('./utils/initModels');
 
 // Database authenticated
 sequelize

@@ -107,6 +107,8 @@ exports.deleteUser = catchAsync(async(req, res, next) => {
     res.status(204).json({ status: 'success' });
 });
 
-exports.getAllOrder = catchAsync(async(req, res, next) => {});
+exports.getAllOrder = catchAsync(async(req, res, next) => {
+
+});
 
 exports.getAllOrderById = catchAsync(async(req, res, next) => {});
